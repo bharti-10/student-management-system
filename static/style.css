@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Container for centering */
+
+.container {
+    width: 60%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+/* Form styling */
+form {
+    background: white;
+    padding: 15px;
+    width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+form {
+    margin: 20px auto;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Button */
+button {
+    background: #28a745;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+table {
+    margin: auto;
+}
+
+/* Table cells */
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Header row */
+th {
+    background: #333;
+    color: white;
+}
+
+/* Row hover effect */
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Delete link */
+a[href*="delete"] {
+    color: red;
+}
