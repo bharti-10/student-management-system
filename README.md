@@ -1,36 +1,51 @@
-# Student Management System
-Developed as part of learning **Database Management Systems (DBMS)**.
+Student Management System
 
-This is a **Student Management System** built using **Python and MySQL**.
+A full-stack web application built using Flask and MySQL that allows users to manage student records efficiently.
 
-## Features
-- Add Student  
-- View Students  
-- Update Student  
-- Delete Student  
+🚀 Live Demo
 
-## Technologies Used
-- Python  
-- MySQL  
-- mysql-connector-python  
+https://student-management-system-8lq3.onrender.com/
 
-## How to Run
-1. Install MySQL  
-2. Create database using `database.sql`  
-3. Install required library:
-4. Run the program:
- 
-## Database Structure
-The project uses a table named **students** with the following fields:
-- **id** (Primary Key, Auto Increment)  
-- **name**  
-- **age**  
-- **course**  
+📌 Features
+Add Student
+View Students
+Update Student
+Delete Student
+🛠️ Tech Stack
+Python (Flask)
+MySQL (Railway Cloud Database)
+HTML, CSS
+Render (Deployment)
+📂 Project Structure
+app.py
+templates/
+requirements.txt
+⚙️ How to Run Locally
+Clone the repository:
+git clone https://github.com/bharti-10/student-management-system.git
+Navigate to the project folder:
+cd student-management-system
+Install dependencies:
+pip install -r requirements.txt
+Set up MySQL database and update DATABASE_URL
+Run the app:
+python app.py
+🗄️ Database Structure
 
-## Description
-This project demonstrates **CRUD operations** (Create, Read, Update, Delete) and how to connect **Python with MySQL** for database management.
+Table: students
 
-## Future Improvements
-- Add search functionality  
-- Add login system  
-- Convert into web application using Flask 
+id (Primary Key, Auto Increment)
+name
+age
+course
+💡 Description
+
+This project demonstrates full CRUD operations (Create, Read, Update, Delete) using Flask and MySQL, along with deployment on cloud platforms like Render and Railway.
+
+🔮 Future Improvements
+Add login system
+Add search functionality
+Improve UI design
+👨‍💻 Author
+
+Bharti
