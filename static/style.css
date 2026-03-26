@@ -1,102 +1,69 @@
+
 body {
+    background-color: #FFF8F0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
-}
-
-/* Container for centering */
-
-.container {
-    width: 60%;
-    margin: 40px auto;
-    text-align: center;
+    color: #4B2E2B;
 }
 
 /* Heading */
-h1 {
-    color: #333;
-}
-
 h2 {
-    margin-top: 20px;
+    text-align: center;
+    color: #4B2E2B;
 }
 
-/* Form styling */
-form {
-    background: white;
-    padding: 15px;
-    width: 300px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-form {
-    margin: 20px auto;
+/* Table */
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Input fields */
-input {
-    width: 100%;
-    padding: 6px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Button */
-button {
-    background: #28a745;
+th {
+    background-color: #C08552;
     color: white;
-    padding: 8px;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate rows */
+tr:nth-child(even) {
+    background-color: #f9f1e7;
+}
+
+/* Buttons */
+button {
+    background-color: #8C5A3C;
+    color: white;
     border: none;
+    padding: 8px 12px;
     cursor: pointer;
     border-radius: 5px;
 }
 
 button:hover {
-    background: #218838;
+    background-color: #4B2E2B;
 }
 
-/* Table */
-table {
-    border-collapse: collapse;
-    width: 80%;
-    background: white;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-table {
-    margin: auto;
+/* Links (edit/delete) */
+a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 4px;
 }
 
-/* Table cells */
-th, td {
-    padding: 10px;
-    border: 1px solid #ccc;
-    text-align: center;
-}
-
-/* Header row */
-th {
-    background: #333;
+a.edit {
+    background-color: #C08552;
     color: white;
 }
 
-/* Row hover effect */
-tr:hover {
-    background-color: #f1f1f1;
-}
-
-/* Links */
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Delete link */
-a[href*="delete"] {
-    color: red;
+a.delete {
+    background-color: #4B2E2B;
+    color: white;
 }
