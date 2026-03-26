@@ -6,6 +6,8 @@ A full-stack web application built using Flask and MySQL that allows users to ma
 
 ## Live Demo
 https://student-management-system-8lq3.onrender.com/
+## Screenshot
+![App Screenshot](screenshot.png)
 
 ---
 
