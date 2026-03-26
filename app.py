@@ -1,13 +1,16 @@
+import os
 from flask import Flask, render_template, request, redirect
 import mysql.connector
 
 app = Flask(__name__)
 
+# Database connection (Railway)
 conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="password",
-    database="student_db"
+    host=os.getenv("MYSQLHOST"),
+    user=os.getenv("MYSQLUSER"),
+    password=os.getenv("MYSQLPASSWORD"),
+    database=os.getenv("MYSQLDATABASE"),
+    port=int(os.getenv("MYSQLPORT"))
 )
 cursor = conn.cursor(buffered=True)
 
@@ -57,4 +60,4 @@ def delete(id):
     return redirect('/')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)
