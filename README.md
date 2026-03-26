@@ -1,4 +1,5 @@
 # Student Management System
+Developed as part of learning **Database Management Systems (DBMS)**.
 
 This is a **Student Management System** built using **Python and MySQL**.
 
@@ -28,3 +29,8 @@ The project uses a table named **students** with the following fields:
 
 ## Description
 This project demonstrates **CRUD operations** (Create, Read, Update, Delete) and how to connect **Python with MySQL** for database management.
+
+## Future Improvements
+- Add search functionality  
+- Add login system  
+- Convert into web application using Flask 
